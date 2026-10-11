@@ -14,6 +14,11 @@
 #include "driver/gpio.h"
 #include "esp_timer.h"
 #include "esp_log.h"
+/*Objective is a simple reaction game where we measure the time it 
+  takes a player to react after an LED turns on. After five tries
+  the led starts to blink different colors and a result is sent,
+  http or serial communication
+*/
 
 void app_main(void)
 {
